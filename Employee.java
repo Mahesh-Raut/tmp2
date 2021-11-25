@@ -5,8 +5,7 @@ import java.io.Serializable;
 public class Employee implements Serializable {
     private int id;
     private String name;
-    private float salary;
-    //private String degree;
+   
 
     public Employee(int id, String name, float salary) {
         this.id = id;
