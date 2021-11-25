@@ -7,12 +7,7 @@ public class Employee implements Serializable {
     private String name;
    
 
-    public Employee(int id, String name, float salary) {
-        this.id = id;
-        this.name = name;
-        this.salary = salary;
-    }
-
+  
     public int getId() {
         return id;
     }
